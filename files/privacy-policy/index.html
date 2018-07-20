@@ -1,10 +1,105 @@
----
-layout: default
-title: Hassan and Associates
-privacy-policy: active
-permalink:"/:files/privacy-policy/
-description:We are providing services for individual and company income tax, company registration, annual return update, company law matter including all other related business services. We are located in Dhaka, Bangladesh but we serve clients across the country and all over the world. Our other Business services includes obtaining Trade License, Value Added Tax Registration certificate, Membership of Chamber of Commerce, Import-Export-Indenting License, Permits, Trademark-Copyright-Patent registration, project profile preparation as well as obtaining approval from the concern Authority etc
----
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    
+	  
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="https://hassanandassociates.biz/img/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://hassanandassociates.biz/img/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://hassanandassociates.biz/img/ico/favicon-16x16.png">
+    <link rel="manifest" href="https://hassanandassociates.biz/img/ico/manifest.json">
+    <link rel="mask-icon" href="https://hassanandassociates.biz/img/ico/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="https://hassanandassociates.biz/img/ico/favicon.ico">
+    <meta name="msapplication-config" content="https://hassanandassociates.biz/img/ico/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="{{ "https://hassanandassociates.biz/style.css" | prepend: site.baseurl }}">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{{ "https://hassanandassociates.biz/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- google analytics - i will not share this data with google -->
+	{% include analytics.html %}
+	<!-- For gplus place this tag in your head or just before your close body tag. -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+	
+	    
+</head>
+
+<body>
+<body id="page-top" class="index">
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand page-scroll" href="#page-top">
+                  <img src="img/brand/logo.png" alt="Hassan and Associates" height="42" width="42">
+                  {{site.title}} 
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#products">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#about">Clients</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="https://blog.hassanandassociates.ml">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    </header>
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
 <section id="privacy">
   <div class="container">
 
@@ -111,6 +206,31 @@ description:We are providing services for individual and company income tax, com
 
 <p>This Privacy Policy is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/"><img src="/img/logos/cc-by.svg" alt="cc-by" width=88 height=31> <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
 
+</body>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+       <span class="copyright"><a href="https://creativecommons.org/licenses/by/4.0/"><img src="/img/logos/cc-by.svg" alt="cc-by" width=88 height=31></a>   <a href="https://en.gravatar.com/upodesta"><img src="/img/logos/webdev3.svg" alt="webdev" width=25 height=25></a>   &copy; <a href="https://upodesta.gq"> Hassan</a> {{ 'now' | date: "%Y" }} </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          {% for network in site.social %}
+          <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+            <li><a href="https://hassanandassociates.ga/files/privacy-policy">Privacy Policy</a>
+            </li>
+            <li><a href="https://hassanandassociates.ga/files/terms-of-use">Terms of Use</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
 
 <div class="buttons-container">
 <a class="border-button" href="https://hassanandassociates.ml/" target="_blank">Go To Homepage</a>
@@ -118,3 +238,49 @@ description:We are providing services for individual and company income tax, com
 </div>
 </div>
 </section>
+
+</body>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+       <span class="copyright"><a href="https://creativecommons.org/licenses/by/4.0/"><img src="/img/logos/cc-by.svg" alt="cc-by" width=88 height=31></a>   <a href="https://en.gravatar.com/upodesta"><img src="/img/logos/webdev3.svg" alt="webdev" width=25 height=25></a>   &copy; <a href="https://upodesta.gq"> Hassan</a> {{ 'now' | date: "%Y" }} </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          {% for network in site.social %}
+          <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+            <li><a href="https://hassanandassociates.ga/files/privacy-policy">Privacy Policy</a>
+            </li>
+            <li><a href="https://hassanandassociates.ga/files/terms-of-use">Terms of Use</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+ <!-- jQuery Version 1.11.0 -->
+    <script src="{{ "https://hassanandassociates.biz/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ "https://hassanandassociates.biz/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+
+	
+	
+    <!-- Plugin JavaScript -->
+    <script src="{{ "https://hassanandassociates.biz/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "https://hassanandassociates.biz/js/classie.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "https://hassanandassociates.biz/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+
+    <!-- jssor.slider JavaScript -->
+    <script src="{{ "/js/jssor.slider-27.1.0.min" | prepend: site.baseurl }}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{{ "https://hassanandassociates.biz/js/agency.js" | prepend: site.baseurl }}"></script>
+	
+	
