@@ -41,9 +41,9 @@ google_analytics: UA-66934702-16
 
 # Your website URL 
 # Used for Sitemap.xml and your RSS feed
-url: https://www.bizlaw.ooo
+url: 
      
-baseurl: https://www.bizlaw.ooo
+baseurl: 
 
 #
 # !! You don't need to change any of the configuration flags below !!
